@@ -9,7 +9,7 @@ const port = 4000;
 app.use(cors()); 
 app.use(bodyParser.json()); 
 const db = mysql.createConnection({
-  host: "database-1.cr2ue6u44sny.eu-north-1.rds.amazonaws.com",
+  host: "localhost",
   user: "admin",
   password: "Ramchin123",
   database: "course",
